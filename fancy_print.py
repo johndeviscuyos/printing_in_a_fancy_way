@@ -1,4 +1,8 @@
 #pseudocode
+import colorama
+from colorama import Fore,Back, Style
+import pyfiglet
+colorama.init()
 
 #Import Text
 import pyttsx3
