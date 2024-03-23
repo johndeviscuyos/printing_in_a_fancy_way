@@ -9,4 +9,6 @@ name = input("What is your name? ")
 #ask user their dream job
 dream_job= input("What is your dream job? ")
 #print a goodluck msg
+goodluck_message = (name + " your dream job is " + dream_job + ". Goodluck on achieving your dreams and keep striving")
+
 #print dream job and name in a fancy way
