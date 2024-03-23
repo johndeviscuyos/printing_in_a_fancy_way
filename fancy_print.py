@@ -8,8 +8,12 @@ colorama.init()
 import pyttsx3
 text_speech = pyttsx3.init()
 
+name_speech = ("What is your name?")
+text_speech.say(name_speech)
+text_speech.runAndWait()
 #ask user their name
 name = input("What is your name? ")
+
 #ask user their dream job
 dream_job= input("What is your dream job? ")
 #print a goodluck msg
