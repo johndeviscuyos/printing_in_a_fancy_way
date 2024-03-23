@@ -21,5 +21,7 @@ text_speech.runAndWait()
 dream_job= input("What is your dream job? ")
 #print a goodluck msg
 goodluck_message = (name + " your dream job is " + dream_job + ". Goodluck on achieving your dreams and keep striving")
-
+print (goodluck_message)
+text_speech.say(goodluck_message)
+text_speech.runAndWait()
 #print dream job and name in a fancy way
