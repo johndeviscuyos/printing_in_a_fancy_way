@@ -30,3 +30,6 @@ text_speech.runAndWait()
 art_text=pyfiglet.figlet_format(text= name+ " the "+ dream_job,
                             font="slant")
 print (art_text)
+
+print('Additional Info')
+print("Some of the most in-demand tech-related jobs in today's market include Data Scientists, who leverage statistical analysis and machine learning techniques to extract insights from large datasets and inform business decisions.\nCybersecurity Analysts are also highly sought after, responsible for protecting an organization's computer systems and networks from cyber threats by implementing security measures and monitoring for breaches.\nAdditionally, Cloud Architects play a pivotal role in designing and implementing cloud-based solutions, ensuring scalability, reliability, and optimal performance for businesses migrating to the cloud.\nLastly, AI/Machine Learning Engineers are increasingly in demand, focusing on developing and deploying algorithms and models that enable machines to perform tasks that typically require human intelligence, driving advancements in automation and personalization across various industries.")
