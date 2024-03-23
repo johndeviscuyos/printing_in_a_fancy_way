@@ -14,6 +14,9 @@ text_speech.runAndWait()
 #ask user their name
 name = input("What is your name? ")
 
+speak_name = ("Hello " + name + ", May I know what is your dream job?")
+text_speech.say(speak_name)
+text_speech.runAndWait()
 #ask user their dream job
 dream_job= input("What is your dream job? ")
 #print a goodluck msg
